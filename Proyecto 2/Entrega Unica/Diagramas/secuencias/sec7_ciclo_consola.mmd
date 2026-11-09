@@ -1,0 +1,36 @@
+sequenceDiagram
+    actor U as Usuario
+    participant B as ConsolaBase
+    participant G as GestorDatos
+    participant CD as ClubDeportivo
+    participant P as PersistenciaClub
+    U->>B: ejecuta el main de su rol (ejecutar)
+    B->>G: cargar()
+    G->>CD: ClubDeportivo.cargar("datos")
+    CD->>P: cargar(carpeta)
+    P-->>CD: club armado por LectorClub
+    alt hay un dato inválido
+        P-->>B: IOException con el nombre del archivo
+        B-->>U: [ERROR] y se cierra SIN guardar
+    end
+    loop hasta 3 intentos
+        U->>B: usuario y contraseña
+        B->>CD: autenticar(usuario, contraseña)
+        CD-->>B: Usuario o ReglaNegocioException
+        B->>B: aceptaUsuario(u) según la consola
+    end
+    B->>B: crearMenuPrincipal() de la consola hija
+    loop hasta "Guardar y salir" o fin de la entrada
+        U->>B: opción (Menu devuelve su código)
+        B->>B: atenderOpcion(codigo) con datos validados por LectorEntrada
+        B->>CD: operación del negocio
+        CD-->>B: resultado o ReglaNegocioException
+        B-->>U: [HECHO] o [RECHAZADO] y vuelve al menú
+    end
+    B->>G: guardar() en el bloque finally
+    G->>CD: guardar("datos")
+    CD->>P: guardar(club, carpeta)
+    P->>P: paso 1: escribir cada archivo .temporal (EscritorClub)
+    P->>P: paso 2: cada .temporal reemplaza a su .txt
+    P-->>G: listo, o IOException (se borran los .temporal)
+    G-->>U: Cambios guardados (o error y archivos sin cambios)

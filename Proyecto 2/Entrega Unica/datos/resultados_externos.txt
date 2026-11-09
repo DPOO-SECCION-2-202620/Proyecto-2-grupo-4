@@ -1,0 +1,8 @@
+# competencia;equipoA;equipoB;golesA;golesB;fase;grupo
+Torneo de los Cerros;U. de los Andes;U. Javeriana;2;0;-;-
+Torneo de los Cerros;U. del Rosario;U. de los Andes;1;1;-;-
+Torneo de los Cerros;U. Javeriana;U. del Rosario;0;2;-;-
+Copa ASCUN;U. Nacional;U. Externado;80;75;Grupos;A
+Copa ASCUN;U. de los Andes;U. Javeriana;70;60;Grupos;B
+Copa ASCUN;U. Sabana;U. de los Andes;70;66;Grupos;B
+Copa ASCUN;U. Sabana;U. Javeriana;75;72;Grupos;B

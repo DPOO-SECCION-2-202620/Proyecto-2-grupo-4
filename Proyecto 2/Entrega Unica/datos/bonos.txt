@@ -1,0 +1,1 @@
+# codigo;idUsuario;porcentaje;torneoOrigen;fechaOtorgado;usado

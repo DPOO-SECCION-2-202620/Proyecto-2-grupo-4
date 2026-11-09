@@ -1,0 +1,4 @@
+# competencia;fase;tipo;clasificadosPorGrupo;finalizada;participantes
+Copa ASCUN;Grupos;GRUPOS;2;false;Séneca Baloncesto|U. Nacional|U. Externado|U. de los Andes|U. Javeriana|U. Sabana
+Copa ASCUN;Semifinal;ELIMINACION;0;false;-
+Copa ASCUN;Final;ELIMINACION;0;false;-

@@ -1,0 +1,23 @@
+sequenceDiagram
+    actor P as Socio / externo / empleado
+    participant C as Consola
+    participant CD as ClubDeportivo
+    participant T as TorneoIndividual
+    participant E as Empleado (si aplica)
+    P->>C: Inscribirme (torneo, login pareja)
+    C->>CD: inscribirEnTorneoIndividual(usuario, torneo, pareja, hoy)
+    CD->>CD: buscarTorneo / buscarUsuarioPorLogin
+    loop cada jugador
+        CD->>CD: obtenerNivel(j, disciplina)
+        opt j es Empleado (HU-TOR-EMP-01)
+            CD->>E: tieneTurnoEl(fechaInicio)
+        end
+        CD->>CD: calcularRankingIndividual(j, disciplina)
+    end
+    CD->>CD: esElegiblePreferencial(ranking, rankingsDeCategoria(t), N)
+    CD->>T: inscribir(jugadores, ranking, elegible, hoy)
+    T->>T: registrarInscripcion(ins, elegible, hoy)
+    Note right of T: asigna PREFERENCIAL o REGULAR<br/>y tarifa (0 si es empleado o recreativo)
+    T-->>CD: InscripcionTorneoIndividual
+    CD-->>C: inscripción
+    C-->>P: [OK] cupo, valor a pagar y cupos libres

@@ -1,0 +1,6 @@
+# idVenta;producto;cantidad;precioUnitario
+1;Balón Fútbol Golty;1;120000.0
+1;Tubo Pelotas Tenis;2;35000.0
+2;Raqueta Wilson Pro;1;450000.0
+3;Jugo natural;1;6000.0
+3;Galletas de avena;2;3000.0

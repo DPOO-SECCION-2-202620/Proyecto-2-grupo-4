@@ -1,0 +1,21 @@
+sequenceDiagram
+    actor A as Administrador
+    participant C as ConsolaAdministrador
+    participant CD as ClubDeportivo
+    participant T as Torneo
+    participant U as Usuario (integrante)
+    A->>C: Finalizar torneo (elige 1.º, 2.º, ...)
+    C->>CD: finalizarTorneo(admin, torneo, idsEnOrden)
+    CD->>T: buscarInscripcion(id) por cada id
+    CD->>T: finalizar(posiciones, porcentajePremioCompetitivo)
+    Note right of T: rechaza si ya está FINALIZADO,<br/>si no ha iniciado o si hay posiciones inválidas
+    T->>T: guarda posiciones y estado FINALIZADO
+    alt RECREATIVO
+        loop cada integrante del 1.º puesto
+            T->>U: agregarBono(new BonoDescuento(porcentajeBono))
+        end
+    else COMPETITIVO
+        T->>T: calcularBolsa() x porcentaje
+        T->>T: Premio para el primer no empleado de las posiciones
+    end
+    C-->>A: [OK] historial con posiciones y premios

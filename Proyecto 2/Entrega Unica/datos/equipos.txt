@@ -1,0 +1,6 @@
+# nombre;deporte;categoria;cupoMaximo;idEntrenador
+Séneca Fútbol A;FUTBOL;MAYORES;15;E001
+Séneca Fútbol B;FUTBOL;MAYORES;15;E002
+Séneca Baloncesto;BALONCESTO;MAYORES;12;E003
+Séneca Voleibol;VOLEIBOL;MAYORES;12;E004
+Séneca Fútbol Sub-15;FUTBOL;SUB15;18;E005

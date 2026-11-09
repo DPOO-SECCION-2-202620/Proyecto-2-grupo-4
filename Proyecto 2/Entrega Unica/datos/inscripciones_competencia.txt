@@ -1,0 +1,3 @@
+# competencia;equipo;nomina;amarillasAcumuladas(id:n);suspendidos
+Torneo de los Cerros;Séneca Fútbol A;S001|S002|S003|S004|S005|S006|S007|S008;S006:0|S007:2|S004:0;S007
+Copa ASCUN;Séneca Baloncesto;S001|S003|S009|S011|S017|S018;S017:0|S001:0|S009:0;-

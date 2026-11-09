@@ -1,0 +1,32 @@
+# equipo;idSocio;posicion;camiseta;activo;suspendido
+Séneca Fútbol A;S001;PORTERO;1;true;false
+Séneca Fútbol A;S002;DEFENSA;2;true;false
+Séneca Fútbol A;S003;DEFENSA;3;true;false
+Séneca Fútbol A;S004;MEDIOCAMPISTA;4;true;false
+Séneca Fútbol A;S005;MEDIOCAMPISTA;5;true;true
+Séneca Fútbol A;S006;DELANTERO;6;true;false
+Séneca Fútbol A;S007;DELANTERO;7;true;false
+Séneca Fútbol A;S008;DEFENSA;8;true;false
+Séneca Fútbol B;S009;PORTERO;1;true;false
+Séneca Fútbol B;S010;DEFENSA;2;true;true
+Séneca Fútbol B;S011;DEFENSA;3;true;false
+Séneca Fútbol B;S012;MEDIOCAMPISTA;4;true;false
+Séneca Fútbol B;S013;MEDIOCAMPISTA;5;true;false
+Séneca Fútbol B;S014;DELANTERO;6;true;false
+Séneca Fútbol B;S015;DELANTERO;7;true;false
+Séneca Fútbol B;S016;DEFENSA;8;true;false
+Séneca Baloncesto;S001;BASE;4;true;false
+Séneca Baloncesto;S003;ESCOLTA;5;true;false
+Séneca Baloncesto;S009;ALERO;6;true;false
+Séneca Baloncesto;S011;ALA-PIVOT;7;true;false
+Séneca Baloncesto;S017;PIVOT;8;true;false
+Séneca Baloncesto;S018;ALERO;9;true;false
+Séneca Voleibol;S002;ARMADOR;1;true;false
+Séneca Voleibol;S004;OPUESTO;2;true;false
+Séneca Voleibol;S010;CENTRAL;3;true;false
+Séneca Voleibol;S012;CENTRAL;4;true;false
+Séneca Voleibol;S013;PUNTA;5;true;false
+Séneca Voleibol;S017;PUNTA;6;true;false
+Séneca Voleibol;S018;LIBERO;7;true;false
+Séneca Fútbol Sub-15;S019;DELANTERO;9;true;false
+Séneca Fútbol Sub-15;S020;PORTERO;1;true;false

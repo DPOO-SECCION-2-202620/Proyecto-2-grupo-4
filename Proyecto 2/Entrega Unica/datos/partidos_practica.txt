@@ -1,0 +1,3 @@
+# id;disciplina;fecha;idsJugadores(ladoA|ladoB);jugado
+1;TENIS;2026-10-04;S001|S002;true
+2;PADEL;2026-10-05;S005|S006|S007|S008;true

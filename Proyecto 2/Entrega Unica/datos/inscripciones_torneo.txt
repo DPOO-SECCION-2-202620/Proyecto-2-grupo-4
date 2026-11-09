@@ -1,0 +1,1 @@
+# torneo;id;fecha;tipoCupo;tarifaPagada;ranking;[EQUIPO;nombreEquipo | JUGADORES;ids]

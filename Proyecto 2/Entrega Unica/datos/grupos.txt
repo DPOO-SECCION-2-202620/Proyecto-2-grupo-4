@@ -1,0 +1,3 @@
+# competencia;fase;grupo;equipos
+Copa ASCUN;Grupos;A;Séneca Baloncesto|U. Nacional|U. Externado
+Copa ASCUN;Grupos;B;U. de los Andes|U. Javeriana|U. Sabana

@@ -1,0 +1,5 @@
+# clase;nombre;tipo;cupos;tarifa;porcentajeBono;fechaInicio;fechaLimitePreferenciales;estado;posiciones(ids);[INDIVIDUAL: disciplina;nivel;dobles | CONJUNTO: deporte;categoria;-]
+INDIVIDUAL;Copa Tenis Intermedio;RECREATIVO;8;0.0;0.15;2026-11-21;2026-11-14;POR_INICIAR;-;TENIS;INTERMEDIO;false
+INDIVIDUAL;Pádel Dobles Abierto;COMPETITIVO;6;40000.0;0.0;2026-11-22;2026-11-15;POR_INICIAR;-;PADEL;INTERMEDIO;true
+CONJUNTO;Mini Fútbol Mayores;RECREATIVO;4;0.0;0.1;2026-11-28;2026-11-20;POR_INICIAR;-;FUTBOL;MAYORES;-
+INDIVIDUAL;Relámpago Tenis de Mesa;COMPETITIVO;4;20000.0;0.0;2026-12-05;2026-11-28;POR_INICIAR;-;TENIS_MESA;PRINCIPIANTE;false

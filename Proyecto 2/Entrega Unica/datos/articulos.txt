@@ -1,0 +1,6 @@
+# nombre;categoria;precio
+Raqueta Wilson Pro;Raquetas;450000.0
+Balón Fútbol Golty;Balones;120000.0
+Malla Voleibol;Mallas;200000.0
+Uniforme Séneca;Uniformes;90000.0
+Tubo Pelotas Tenis;Pelotas;35000.0

@@ -1,0 +1,8 @@
+# INTERNO;id;fecha;local;visitante;marcadorA;marcadorB;jugado | COMPETENCIA;id;fecha;competencia;equipo;rival;escenario;fase;grupo;marcadorA;marcadorB;jugado
+INTERNO;6;2026-10-03;Séneca Fútbol A;Séneca Fútbol B;2;1;true
+INTERNO;7;2026-10-17;Séneca Fútbol B;Séneca Fútbol A;0;0;false
+COMPETENCIA;1;2026-09-20;Torneo de los Cerros;Séneca Fútbol A;U. de los Andes;Estadio El Campín - Cancha 2;-;-;3;1;true
+COMPETENCIA;2;2026-09-27;Torneo de los Cerros;Séneca Fútbol A;U. Javeriana;Cancha Javeriana;-;-;1;1;true
+COMPETENCIA;3;2026-10-11;Torneo de los Cerros;Séneca Fútbol A;U. del Rosario;Cancha Rosario;-;-;0;0;false
+COMPETENCIA;4;2026-09-18;Copa ASCUN;Séneca Baloncesto;U. Nacional;Coliseo UN;Grupos;A;70;65;true
+COMPETENCIA;5;2026-09-25;Copa ASCUN;Séneca Baloncesto;U. Externado;Coliseo Séneca;Grupos;A;75;70;true

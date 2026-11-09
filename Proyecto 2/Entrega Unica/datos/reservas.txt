@@ -1,0 +1,3 @@
+# id;instalacion;idSocio;fechaHora;cantidadJugadores;modalidad
+1;TEN-1;S001;2026-10-12T08:00;2;SENCILLOS
+2;PAD-1;S005;2026-10-12T09:00;4;DOBLES

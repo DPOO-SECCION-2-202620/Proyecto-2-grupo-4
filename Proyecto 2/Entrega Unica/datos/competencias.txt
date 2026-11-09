@@ -1,0 +1,3 @@
+# formato;nombre;entidad;temporada;deporte;categoria;nominaMinima;indiceFaseActual;campeon
+LIGA;Torneo de los Cerros;Universidades de Bogotá;2026;FUTBOL;MAYORES;7;-;-
+FASES;Copa ASCUN;ASCUN;2026;BALONCESTO;MAYORES;5;0;-

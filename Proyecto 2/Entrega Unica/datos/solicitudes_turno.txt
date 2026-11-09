@@ -1,0 +1,3 @@
+# id;idEmpleado;diaActual;iniActual;finActual;diaProp;iniProp;finProp;estado
+1;E005;LUNES;10:00;18:00;MARTES;10:00;18:00;PENDIENTE
+2;F001;LUNES;06:00;14:00;MARTES;14:00;22:00;PENDIENTE

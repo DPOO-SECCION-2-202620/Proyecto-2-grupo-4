@@ -1,0 +1,8 @@
+# tipo;nombre;precio;[BEBIDA: FRIA/CALIENTE | SNACK: alergenos]
+BEBIDA;Café americano;4000.0;CALIENTE
+BEBIDA;Chocolate caliente;5000.0;CALIENTE
+BEBIDA;Jugo natural;6000.0;FRIA
+BEBIDA;Agua;3000.0;FRIA
+SNACK;Barra de maní;3500.0;MANI
+SNACK;Galletas de avena;3000.0;GLUTEN|LACTEOS
+SNACK;Fruta picada;5000.0;-

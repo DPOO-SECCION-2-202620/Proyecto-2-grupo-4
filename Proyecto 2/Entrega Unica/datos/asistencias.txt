@@ -1,0 +1,13 @@
+# idSesion;idSocio;estado;nota;comentario
+1;S001;ASISTIO;5;Excelente saque
+1;S002;TARDE;3;Llegó 15 min tarde
+1;S003;ASISTIO;4;-
+1;S004;FALTO;0;-
+2;S001;ASISTIO;4;-
+2;S002;ASISTIO;4;-
+2;S003;ASISTIO;4;-
+2;S004;ASISTIO;4;-
+2;S005;ASISTIO;4;-
+2;S006;ASISTIO;4;-
+2;S007;ASISTIO;4;-
+2;S008;FALTO;0;-

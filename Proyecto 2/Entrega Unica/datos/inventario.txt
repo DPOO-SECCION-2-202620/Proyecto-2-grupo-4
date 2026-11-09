@@ -1,0 +1,10 @@
+# articulo;ubicacion;cantidad
+Raqueta Wilson Pro;TIENDA;4
+Raqueta Wilson Pro;BODEGA;10
+Balón Fútbol Golty;TIENDA;9
+Balón Fútbol Golty;BODEGA;20
+Malla Voleibol;BODEGA;3
+Uniforme Séneca;TIENDA;15
+Uniforme Séneca;BODEGA;10
+Tubo Pelotas Tenis;TIENDA;28
+Tubo Pelotas Tenis;BODEGA;40

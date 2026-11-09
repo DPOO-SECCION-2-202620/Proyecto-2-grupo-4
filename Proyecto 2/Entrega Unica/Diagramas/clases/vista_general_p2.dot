@@ -1,0 +1,31 @@
+digraph G {
+rankdir=TB;
+graph [fontname="Helvetica", fontsize=11, nodesep=0.8, ranksep=0.9, pad=0.2, newrank=true];
+node [fontname="Helvetica", fontsize=10];
+edge [fontname="Helvetica", fontsize=8.5, color="#333333"];
+label="Proyecto 2: vista general"; labelloc=t; fontsize=14;
+"Consolas" [shape=box, style="rounded,filled", fillcolor="#FFFFFF", label=<<B>consola</B><BR/>ConsolaAdministrador · ConsolaParticipante · ConsolaEntrenador<BR/>ConsolaBase · Menu · LectorEntrada · FlujosTorneo<BR/>GestorDatos · EntradaTerminadaException · GeneradorDatosPrueba>];
+"ClubDeportivo" [shape=box, style="rounded,filled", fillcolor="#EEEEEE", label=<<B>logica</B><BR/>ClubDeportivo (fachada)>];
+"PersistenciaClub" [shape=box, style="rounded,filled", fillcolor="#EEEEEE", label=<<B>persistencia</B><BR/>PersistenciaClub · EscritorClub<BR/>LectorClub · ArchivoTexto>];
+"datos" [shape=folder, style=filled, fillcolor="#FFFDE7", label=<<B>datos/</B><BR/>33 archivos .txt>];
+"pruebas" [shape=folder, style=filled, fillcolor="#FFFDE7", label=<<B>test/</B><BR/>JUnit 5: unitarias e integración por HU>];
+"usuarios" [shape=box, style="rounded,filled", fillcolor="#E8F0FB", label=<<B>Usuarios, turnos y reportes</B><BR/><FONT POINT-SIZE="9">+ ParticipanteExterno</FONT>>];
+"conjunto" [shape=box, style="rounded,filled", fillcolor="#EAF6EC", label=<<B>Equipos, partidos y competencias</B>>];
+"academias" [shape=box, style="rounded,filled", fillcolor="#FFF4E0", label=<<B>Academias e instalaciones</B>>];
+"ventas" [shape=box, style="rounded,filled", fillcolor="#F7EAF5", label=<<B>Tienda, cafetería y ventas</B>>];
+"torneos" [shape=box, style="rounded,filled,bold", fillcolor="#E6F4F6", label=<<B>Torneos internos (NUEVO)</B><BR/><FONT POINT-SIZE="9">9 clases + 3 enums</FONT>>];
+{rank=same; "conjunto"; "academias"; "ventas"; "torneos";}
+{rank=same; "ClubDeportivo"; "PersistenciaClub"; "datos";}
+"Consolas" -> "ClubDeportivo" [style=dashed, arrowhead=vee, label="invoca"];
+"pruebas" -> "ClubDeportivo" [style=dashed, arrowhead=vee, label="prueba"];
+"ClubDeportivo" -> "PersistenciaClub" [style=dashed, arrowhead=vee, label="guardar / cargar"];
+"PersistenciaClub" -> "datos" [style=dashed, arrowhead=vee, label="lee / escribe"];
+"ClubDeportivo" -> "conjunto" [arrowhead=vee];
+"ClubDeportivo" -> "academias" [arrowhead=vee];
+"ClubDeportivo" -> "ventas" [arrowhead=vee];
+"ClubDeportivo" -> "torneos" [arrowhead=vee, label="torneos 0..*"];
+"ClubDeportivo" -> "usuarios" [arrowhead=vee];
+"torneos" -> "usuarios" [arrowhead=vee, label="jugadores, bonos"];
+"torneos" -> "conjunto" [arrowhead=vee, label="equipos", constraint=false];
+"ventas" -> "torneos" [arrowhead=vee, label="bonoAplicado", constraint=false];
+}

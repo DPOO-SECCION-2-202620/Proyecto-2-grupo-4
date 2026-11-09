@@ -1,0 +1,4 @@
+# id;idEntrenador;instalacion;fechaHora;duracion;convocados;finalizada
+1;E002;TEN-2;2026-10-06T07:00;90;S001|S002|S003|S004;true
+2;E003;-;2026-10-07T15:00;120;S001|S002|S003|S004|S005|S006|S007|S008;true
+3;E004;-;2026-10-14T16:00;90;S001|S003|S009|S011|S017|S018;false
